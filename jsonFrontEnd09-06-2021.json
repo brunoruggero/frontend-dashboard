@@ -1,0 +1,35 @@
+{
+    "total": 6,
+    "data": [
+        {
+            "nomeAcao": "A",
+            "numeroTotalAcao": "50",
+            "precoAcao": "1.90"
+        },
+        {
+            "nomeAcao": "B",
+            "numeroTotalAcao": "60",
+            "precoAcao": "5.50"
+        },
+        {
+            "nomeAcao": "C",
+            "numeroTotalAcao": "60",
+            "precoAcao": "10.90"
+        },
+        {
+            "nomeAcao": "D",
+            "numeroTotalAcao": "1000",
+            "precoAcao": "1.90"
+        },
+        {
+            "nomeAcao": "E",
+            "numeroTotalAcao": "800",
+            "precoAcao": "4.50"
+        },
+        {
+            "nomeAcao": "F",
+            "numeroTotalAcao": "400",
+            "precoAcao": "9.90"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 49%;
+}
+
+.w33{
+	width: 33.3%;
+}
+
+.w66{
+    width: 66.3%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 100%;
+    position: relative;
+    left: 0;
+    padding: 0 2%;
+}
+
+/* CARD-INFO */
+.card-info{
+    margin-top: 16px;
+    padding: 0 15px;
+}
+
+.card-info-single{
+    float: left;
+    position: relative;
+    width: 24%;
+    border: 2px solid #CCC;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+.card-info-wraper{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.card-info-wraper h2{
+    color: #CCC;
+    font-size: 22px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.card-info-wraper p{
+    font-size: 18px;
+    margin-bottom: 0 !important;
+}
+
+.card-info-wraper .balance{
+    color: orange;
+}
+
+.card-info-wraper .change{
+    color: green;
+}
+
+.card-info-wraper .best{
+    color: green;
+}
+
+.card-info-wraper .worst{
+    color: red;
+}
+
+/* CARD-INFO-CHART */
+.card-info-chart-single{
+    float: left;
+    position: relative;
+    width: 49%;
+    border: 2px solid #CCC;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+.card-info-chart-wraper h2{
+    color: #CCC;
+    font-size: 22px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.chart-doughnut{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.chart-line{
+    width: 50%;
+    margin: 20px auto;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #CCC;
+    background: #212121;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+span:last-child{
+    background: #651fff;
+}
+
+.table-responsive{
+    padding: 20px 42px 0 20px;
+}
+
+.table .thead-dark th {
+    color: #CCC !important;
+    text-transform: uppercase;
+}
