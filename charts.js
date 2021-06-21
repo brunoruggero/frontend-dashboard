@@ -1,5 +1,5 @@
 var xmlhttp1 = new XMLHttpRequest();
-var url = "http://localhost/front-teste/jsonFrontEnd10-06-2021.json";
+var url = "http://localhost/front-teste/jsonFrontEnd09-06-2021.json";
 xmlhttp1.open("GET",url,true);
 xmlhttp1.send();
 xmlhttp1.onreadystatechange = function(){
@@ -9,11 +9,10 @@ xmlhttp1.onreadystatechange = function(){
         var pegaNome = data.data.map(function(elem){
             return elem.nomeAcao;
         });
-        //console.log(pegaNome);
         var pegaPreco = data.data.map(function(elem){
             return elem.precoAcao;
         });
-        //console.log(pegaPreco);
+        
         var ctx = document.getElementById('doughnut').getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'doughnut',
@@ -94,9 +93,6 @@ xmlhttp2.onreadystatechange = function(){
                     }
                 },
                 scales: {
-                    // y: {
-                    //     beginAtZero: true
-                    // }
                     yAxes: [{
                         ticks: {
                             beginAtZero: true
